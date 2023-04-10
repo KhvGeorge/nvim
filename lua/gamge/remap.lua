@@ -21,6 +21,8 @@ vim.keymap.set("n", "<leader>sh", "<C-w>s")
 vim.keymap.set("n", "<leader>se", "<C-w>=")
 vim.keymap.set("n", "<leader>sx", ":close<CR>")
 
+vim.keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
+
 vim.keymap.set("n", "<leader>vwm", function()
 	require("vim-with-me").StartVimWithMe()
 end)
