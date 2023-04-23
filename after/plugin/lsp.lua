@@ -1,5 +1,13 @@
 local lsp = require("lsp-zero")
 
+local nmap = function(keys, func, desc)
+	if desc then
+		desc = "LSP: " .. desc
+	end
+
+	vim.keymap.set("n", keys, func, { buffer = bufnr, desc = desc })
+end
+
 lsp.preset("recommended")
 
 lsp.ensure_installed({
@@ -52,8 +60,6 @@ lsp.on_attach(function(client, bufnr)
 	end, opts)
 	vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts)
 
-	vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
-
 	vim.keymap.set("n", "K", function()
 		vim.lsp.buf.hover()
 	end, opts)
@@ -82,6 +88,11 @@ lsp.on_attach(function(client, bufnr)
 		vim.lsp.buf.signature_help()
 	end, opts)
 end)
+
+nmap("<leader>ds", require("telescope.builtin").lsp_document_symbols, "[D]ocument [S]ymbols")
+nmap("<leader>ws", require("telescope.builtin").lsp_dynamic_workspace_symbols, "[W]orkspace [S]ymbols")
+nmap("gI", vim.lsp.buf.implementation, "[G]oto [I]mplementation")
+nmap("gr", require("telescope.builtin").lsp_references, "[G]oto [R]eferences")
 
 lsp.setup()
 

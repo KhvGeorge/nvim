@@ -57,8 +57,22 @@ vim.keymap.set("i", "<C-c>", "<Esc>")
 --vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/theprimeagen/packer.lua<CR>")
 --vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>")
 
-vim.keymap.set("n", "<leader><leader>", function()
-	vim.cmd("so")
-end)
+--vim.keymap.set("n", "<leader><leader>", function()
+--	vim.cmd("so")
+--end)
+--
+
+local opts = { noremap = true, silent = true }
+
+local function quickfix()
+	vim.lsp.buf.code_action({
+		filter = function(a)
+			return a.isPreferred
+		end,
+		apply = true,
+	})
+end
+
+vim.keymap.set("n", "<leader>qf", quickfix, opts)
 
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
