@@ -25,8 +25,6 @@ return require("packer").startup(function(use)
 		end,
 	})
 
-	vim.cmd("colorscheme rose-pine")
-
 	use({
 		"folke/trouble.nvim",
 		config = function()
