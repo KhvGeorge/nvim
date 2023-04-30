@@ -78,7 +78,6 @@ return require("packer").startup(function(use)
 	})
 
 	use("folke/zen-mode.nvim")
-	use("github/copilot.vim")
 	use("eandrju/cellular-automaton.nvim")
 	use("laytan/cloak.nvim")
 	use("kyazdani42/nvim-web-devicons")
