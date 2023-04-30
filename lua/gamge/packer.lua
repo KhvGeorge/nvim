@@ -27,6 +27,11 @@ return require("packer").startup(function(use)
 
 	use({ "catppuccin/nvim", as = "catppuccin" })
 
+	-- If you are using Packer
+	use("shaunsingh/nord.nvim")
+
+	use("EdenEast/nightfox.nvim") -- Packer
+
 	use({
 		"folke/trouble.nvim",
 		config = function()
