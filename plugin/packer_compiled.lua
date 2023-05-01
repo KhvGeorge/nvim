@@ -251,6 +251,11 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-colors-xcode"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-colors-xcode",
+    url = "https://github.com/arzg/vim-colors-xcode"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-fugitive",

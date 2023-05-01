@@ -27,6 +27,7 @@ mason_lspconfig.setup({
 		"html",
 		"eslint",
 		"angularls",
+		"rust_analyzer",
 		--"cssls",
 		--"tailwindcss",
 		--"lua_ls",

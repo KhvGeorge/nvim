@@ -25,6 +25,8 @@ return require("packer").startup(function(use)
 		end,
 	})
 
+	use({ "arzg/vim-colors-xcode" })
+
 	use({ "catppuccin/nvim", as = "catppuccin" })
 
 	-- If you are using Packer
