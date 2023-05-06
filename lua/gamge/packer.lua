@@ -25,6 +25,8 @@ return require("packer").startup(function(use)
 		end,
 	})
 
+	use("rockerBOO/boo-colorscheme-nvim")
+
 	use({ "rebelot/kanagawa.nvim" })
 
 	use({ "sainnhe/sonokai" })

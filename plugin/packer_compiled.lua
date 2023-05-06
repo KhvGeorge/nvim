@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["boo-colorscheme-nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/boo-colorscheme-nvim",
+    url = "https://github.com/rockerBOO/boo-colorscheme-nvim"
+  },
   catppuccin = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/catppuccin",
