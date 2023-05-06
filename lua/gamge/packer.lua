@@ -25,7 +25,19 @@ return require("packer").startup(function(use)
 		end,
 	})
 
+	use({ "rebelot/kanagawa.nvim" })
+
+	use({ "sainnhe/sonokai" })
+
+	use({ "sainnhe/edge" })
+
+	use({ "sainnhe/everforest" })
+
+	use({ "sainnhe/gruvbox-material" })
+
 	use({ "arzg/vim-colors-xcode" })
+
+	use({ "sonph/onehalf" })
 
 	use({ "catppuccin/nvim", as = "catppuccin" })
 
