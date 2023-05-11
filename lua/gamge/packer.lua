@@ -62,6 +62,8 @@ return require("packer").startup(function(use)
 
 	use("folke/tokyonight.nvim")
 
+	use({ "sonph/onehalf" })
+
 	use({ "ellisonleao/gruvbox.nvim" })
 
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
