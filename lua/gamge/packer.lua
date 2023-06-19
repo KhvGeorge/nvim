@@ -25,6 +25,17 @@ return require("packer").startup(function(use)
 		end,
 	})
 
+	use({
+		"projekt0n/github-nvim-theme",
+		config = function()
+			require("github-theme").setup({
+				-- ...
+			})
+
+			vim.cmd("colorscheme github_dark")
+		end,
+	})
+
 	use("rockerBOO/boo-colorscheme-nvim")
 
 	use({ "rebelot/kanagawa.nvim" })
@@ -37,14 +48,9 @@ return require("packer").startup(function(use)
 
 	use({ "sainnhe/gruvbox-material" })
 
-	use({ "arzg/vim-colors-xcode" })
-
-	use({ "sonph/onehalf" })
-
 	use({ "catppuccin/nvim", as = "catppuccin" })
 
 	-- If you are using Packer
-	use("shaunsingh/nord.nvim")
 
 	use("EdenEast/nightfox.nvim") -- Packer
 
@@ -62,9 +68,37 @@ return require("packer").startup(function(use)
 
 	use("folke/tokyonight.nvim")
 
-	use({ "sonph/onehalf" })
+	use({ "ray-x/aurora" })
 
 	use({ "ellisonleao/gruvbox.nvim" })
+
+	use({ "nyoom-engineering/oxocarbon.nvim" })
+
+	use({ "bluz71/vim-moonfly-colors", as = "moonfly" })
+	use({ "savq/melange-nvim" })
+
+	use({ "jacoborus/tender.vim" })
+
+	-- Lua
+
+	use({
+		"olivercederborg/poimandres.nvim",
+		config = function()
+			require("poimandres").setup({
+				-- leave this setup function empty for default config
+				-- or refer to the configuration section
+				-- for configuration options
+			})
+		end,
+	})
+
+	use({
+		"mcchrish/zenbones.nvim",
+		-- Optionally install Lush. Allows for more configuration or extending the colorscheme
+		-- If you don't want to install lush, make sure to set g:zenbones_compat = 1
+		-- In Vim, compat mode is turned on as Lush only works in Neovim.
+		requires = "rktjmp/lush.nvim",
+	})
 
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 	use("nvim-treesitter/playground")
