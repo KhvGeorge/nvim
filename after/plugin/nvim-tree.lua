@@ -34,6 +34,10 @@ nvimtree.setup({
 			},
 		},
 	},
+	view = {
+		side = "right", -- set the side to 'right'
+		width = 60, -- Set the width of the NvimTree window
+	},
 	git = {
 		ignore = false,
 	},
