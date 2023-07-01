@@ -62,6 +62,7 @@ return require("packer").startup(function(use)
 	use({ "Shatur/neovim-ayu" })
 
 	use({ "doums/darcula" })
+	use({ "romgrk/barbar.nvim" })
 
 	use({ "sainnhe/sonokai" })
 
