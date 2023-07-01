@@ -79,10 +79,20 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["aquarium-vim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/aquarium-vim",
+    url = "https://github.com/frenzyexists/aquarium-vim"
+  },
   aurora = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/aurora",
     url = "https://github.com/ray-x/aurora"
+  },
+  badwolf = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/badwolf",
+    url = "https://github.com/sjl/badwolf"
   },
   ["boo-colorscheme-nvim"] = {
     loaded = true,
@@ -129,6 +139,11 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  darcula = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/darcula",
+    url = "https://github.com/doums/darcula"
+  },
   edge = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/edge",
@@ -138,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/everforest",
     url = "https://github.com/sainnhe/everforest"
+  },
+  falcon = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/falcon",
+    url = "https://github.com/fenetikm/falcon"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -169,6 +189,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
+  },
+  ["iceberg.vim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/iceberg.vim",
+    url = "https://github.com/cocopon/iceberg.vim"
   },
   ["kanagawa.nvim"] = {
     loaded = true,
@@ -205,10 +230,20 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/melange-nvim",
     url = "https://github.com/savq/melange-nvim"
   },
+  molokai = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/molokai",
+    url = "https://github.com/tomasr/molokai"
+  },
   moonfly = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/moonfly",
     url = "https://github.com/bluz71/vim-moonfly-colors"
+  },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
   },
   ["nightfox.nvim"] = {
     loaded = true,
@@ -260,6 +295,11 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["papercolor-theme"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/papercolor-theme",
+    url = "https://github.com/NLKNguyen/papercolor-theme"
+  },
   playground = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/playground",
@@ -292,6 +332,11 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/sonokai",
     url = "https://github.com/sainnhe/sonokai"
   },
+  spaceduck = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/spaceduck",
+    url = "https://github.com/pineapplegiant/spaceduck"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -318,6 +363,21 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  vim = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim",
+    url = "https://github.com/embark-theme/vim"
+  },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-fugitive",
@@ -327,6 +387,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   },
   ["vim-tmux-navigator"] = {
     loaded = true,
@@ -346,10 +411,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: github-nvim-theme
-time([[Config for github-nvim-theme]], true)
-try_loadstring("\27LJ\2\nn\0\0\3\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\28colorscheme github_dark\bcmd\bvim\nsetup\17github-theme\frequire\0", "config", "github-nvim-theme")
-time([[Config for github-nvim-theme]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
@@ -358,6 +419,10 @@ time([[Config for rose-pine]], false)
 time([[Config for poimandres.nvim]], true)
 try_loadstring("\27LJ\2\n<\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\15poimandres\frequire\0", "config", "poimandres.nvim")
 time([[Config for poimandres.nvim]], false)
+-- Config for: github-nvim-theme
+time([[Config for github-nvim-theme]], true)
+try_loadstring("\27LJ\2\nn\0\0\3\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\28colorscheme github_dark\bcmd\bvim\nsetup\17github-theme\frequire\0", "config", "github-nvim-theme")
+time([[Config for github-nvim-theme]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")

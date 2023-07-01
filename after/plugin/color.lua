@@ -26,7 +26,7 @@ require("tokyonight").setup({
 require("catppuccin").setup({
 	flavour = "mocha", -- latte, frappe, macchiato, mocha
 	term_colors = true,
-	transparent_background = true,
+	transparent_background = false,
 	no_italic = false,
 	no_bold = false,
 	styles = {
@@ -92,7 +92,7 @@ require("nightfox").setup({
 		-- Compiled file's destination location
 		compile_path = vim.fn.stdpath("cache") .. "/nightfox",
 		compile_file_suffix = "_compiled", -- Compiled file suffix
-		transparent = true, -- Disable setting background
+		transparent = false, -- Disable setting background
 		terminal_colors = true, -- Set terminal colors (vim.g.terminal_color_*) used in `:terminal`
 		dim_inactive = false, -- Non focused panes set to alternative background
 		module_default = true, -- Default enable value for modules
@@ -132,7 +132,7 @@ require("nightfox").setup({
 })
 
 function ColorMyPencils(color)
-	color = color or "rose-pine"
+	color = color or "gruvbox-material"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
