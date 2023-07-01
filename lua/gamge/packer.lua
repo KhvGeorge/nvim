@@ -51,6 +51,8 @@ return require("packer").startup(function(use)
 	--ysiw to surround
 	use({ "tpope/vim-surround" })
 
+	use({ "rafi/awesome-vim-colorschemes" })
+
 	use({ "tpope/vim-commentary" })
 
 	use({ "vim-airline/vim-airline" })
