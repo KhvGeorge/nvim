@@ -3,6 +3,19 @@ require("rose-pine").setup({
 	disable_float_background = true,
 })
 
+require("no-clown-fiesta").setup({
+	transparent = false, -- Enable this to disable the bg color
+	styles = {
+		-- You can set any of the style values specified for `:h nvim_set_hl`
+		comments = {},
+		keywords = {},
+		functions = {},
+		variables = {},
+		type = { bold = true },
+		lsp = { underline = true },
+	},
+})
+
 require("tokyonight").setup({
 	-- your configuration comes here
 	-- or leave it empty to use the default settings
@@ -24,7 +37,7 @@ require("tokyonight").setup({
 })
 
 require("catppuccin").setup({
-	flavour = "mocha", -- latte, frappe, macchiato, mocha
+	flavour = "macchiato", -- latte, frappe, macchiato, mocha
 	term_colors = true,
 	transparent_background = false,
 	no_italic = false,
@@ -132,7 +145,7 @@ require("nightfox").setup({
 })
 
 function ColorMyPencils(color)
-	color = color or "rose-pine"
+	color = color or "kanagawa"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })

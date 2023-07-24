@@ -40,6 +40,8 @@ return require("packer").startup(function(use)
 
 	use("rockerBOO/boo-colorscheme-nvim")
 
+	use("aktersnurra/no-clown-fiesta.nvim")
+
 	use("embark-theme/vim")
 
 	use("frenzyexists/aquarium-vim")
@@ -47,7 +49,6 @@ return require("packer").startup(function(use)
 	use({ "rebelot/kanagawa.nvim" })
 	use({ "sjl/badwolf" })
 
-	use({ "tomasr/molokai" })
 	--ysiw to surround
 	use({ "tpope/vim-surround" })
 
@@ -57,11 +58,10 @@ return require("packer").startup(function(use)
 
 	use({ "vim-airline/vim-airline" })
 
-	use({ "pineapplegiant/spaceduck" })
-
 	use({ "Shatur/neovim-ayu" })
 
 	use({ "doums/darcula" })
+
 	use({ "romgrk/barbar.nvim" })
 
 	use({ "sainnhe/sonokai" })
@@ -69,10 +69,6 @@ return require("packer").startup(function(use)
 	use({ "sainnhe/edge" })
 
 	use({ "sainnhe/everforest" })
-
-	use({ "cocopon/iceberg.vim" })
-
-	use({ "NLKNguyen/papercolor-theme" })
 
 	use({ "sainnhe/gruvbox-material" })
 
