@@ -8,6 +8,8 @@ return require("packer").startup(function(use)
 
 	use("wbthomason/packer.nvim")
 
+	use("tomasiser/vim-code-dark")
+
 	use("fenetikm/falcon")
 
 	use("christoomey/vim-tmux-navigator")
