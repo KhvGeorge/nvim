@@ -10,8 +10,6 @@ return require("packer").startup(function(use)
 
 	use("tomasiser/vim-code-dark")
 
-	use("fenetikm/falcon")
-
 	use("christoomey/vim-tmux-navigator")
 
 	use({
@@ -29,38 +27,16 @@ return require("packer").startup(function(use)
 		end,
 	})
 
-	use({
-		"projekt0n/github-nvim-theme",
-		config = function()
-			require("github-theme").setup({
-				-- ...
-			})
-
-			vim.cmd("colorscheme github_dark")
-		end,
-	})
-
 	use("rockerBOO/boo-colorscheme-nvim")
 
-	use("aktersnurra/no-clown-fiesta.nvim")
-
-	use("embark-theme/vim")
-
-	use("frenzyexists/aquarium-vim")
-
 	use({ "rebelot/kanagawa.nvim" })
-	use({ "sjl/badwolf" })
 
 	--ysiw to surround
 	use({ "tpope/vim-surround" })
 
-	use({ "rafi/awesome-vim-colorschemes" })
-
 	use({ "tpope/vim-commentary" })
 
 	use({ "vim-airline/vim-airline" })
-
-	use({ "Shatur/neovim-ayu" })
 
 	use({ "doums/darcula" })
 
@@ -69,8 +45,6 @@ return require("packer").startup(function(use)
 	use({ "sainnhe/sonokai" })
 
 	use({ "sainnhe/edge" })
-
-	use({ "sainnhe/everforest" })
 
 	use({ "sainnhe/gruvbox-material" })
 
@@ -93,8 +67,6 @@ return require("packer").startup(function(use)
 	})
 
 	use("folke/tokyonight.nvim")
-
-	use({ "ray-x/aurora" })
 
 	use({
 		"ellisonleao/gruvbox.nvim",
@@ -162,28 +134,9 @@ return require("packer").startup(function(use)
 	use({ "nyoom-engineering/oxocarbon.nvim" })
 
 	use({ "bluz71/vim-moonfly-colors", as = "moonfly" })
-	use({ "savq/melange-nvim" })
-
-	use({ "jacoborus/tender.vim" })
-
-	-- Lua
-
-	use({
-		"olivercederborg/poimandres.nvim",
-		config = function()
-			require("poimandres").setup({
-				-- leave this setup function empty for default config
-				-- or refer to the configuration section
-				-- for configuration options
-			})
-		end,
-	})
 
 	use({
 		"mcchrish/zenbones.nvim",
-		-- Optionally install Lush. Allows for more configuration or extending the colorscheme
-		-- If you don't want to install lush, make sure to set g:zenbones_compat = 1
-		-- In Vim, compat mode is turned on as Lush only works in Neovim.
 		requires = "rktjmp/lush.nvim",
 	})
 
