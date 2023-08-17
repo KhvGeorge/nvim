@@ -46,6 +46,8 @@ return require("packer").startup(function(use)
 
 	use({ "sainnhe/edge" })
 
+	use({ "andreasvc/vim-256noir" })
+
 	use({ "sainnhe/gruvbox-material" })
 
 	use({ "catppuccin/nvim", as = "catppuccin" })
