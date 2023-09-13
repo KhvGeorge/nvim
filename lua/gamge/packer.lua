@@ -7,8 +7,7 @@ return require("packer").startup(function(use)
 	-- Packer can manage itself
 
 	use("wbthomason/packer.nvim")
-
-	use("felipeagc/fleet-theme-nvim")
+	use("krfl/fleetish-vim")
 
 	use("tomasiser/vim-code-dark")
 
