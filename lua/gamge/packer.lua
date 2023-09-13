@@ -8,9 +8,15 @@ return require("packer").startup(function(use)
 
 	use("wbthomason/packer.nvim")
 
+	use("felipeagc/fleet-theme-nvim")
+
 	use("tomasiser/vim-code-dark")
 
 	use("christoomey/vim-tmux-navigator")
+
+	use("chase/focuspoint-vim")
+
+	use("romainl/flattened")
 
 	use({
 		"nvim-telescope/telescope.nvim",
@@ -30,6 +36,10 @@ return require("packer").startup(function(use)
 	use("rockerBOO/boo-colorscheme-nvim")
 
 	use({ "rebelot/kanagawa.nvim" })
+
+	use({ "ajmwagar/vim-deus" })
+
+	use({ "challenger-deep-theme/vim" })
 
 	--ysiw to surround
 	use({ "tpope/vim-surround" })
