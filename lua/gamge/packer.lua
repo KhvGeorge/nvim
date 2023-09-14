@@ -7,15 +7,12 @@ return require("packer").startup(function(use)
 	-- Packer can manage itself
 
 	use("wbthomason/packer.nvim")
+
 	use("krfl/fleetish-vim")
 
 	use("tomasiser/vim-code-dark")
 
 	use("christoomey/vim-tmux-navigator")
-
-	use("chase/focuspoint-vim")
-
-	use("romainl/flattened")
 
 	use({
 		"nvim-telescope/telescope.nvim",
@@ -36,10 +33,6 @@ return require("packer").startup(function(use)
 
 	use({ "rebelot/kanagawa.nvim" })
 
-	use({ "ajmwagar/vim-deus" })
-
-	use({ "challenger-deep-theme/vim" })
-
 	--ysiw to surround
 	use({ "tpope/vim-surround" })
 
@@ -51,17 +44,11 @@ return require("packer").startup(function(use)
 
 	use({ "romgrk/barbar.nvim" })
 
-	use({ "sainnhe/sonokai" })
-
-	use({ "sainnhe/edge" })
-
 	use({ "andreasvc/vim-256noir" })
 
 	use({ "sainnhe/gruvbox-material" })
 
 	use({ "catppuccin/nvim", as = "catppuccin" })
-
-	-- If you are using Packer
 
 	use("EdenEast/nightfox.nvim") -- Packer
 
@@ -146,20 +133,24 @@ return require("packer").startup(function(use)
 
 	use({ "bluz71/vim-moonfly-colors", as = "moonfly" })
 
-	use({
-		"mcchrish/zenbones.nvim",
-		requires = "rktjmp/lush.nvim",
-	})
-
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
+
 	use("nvim-treesitter/playground")
+
 	use("szw/vim-maximizer")
+
 	use("theprimeagen/harpoon")
+
 	use("lewis6991/gitsigns.nvim")
+
 	use("theprimeagen/refactoring.nvim")
+
 	use("mbbill/undotree")
+
 	use("tpope/vim-fugitive")
+
 	use("nvim-tree/nvim-tree.lua")
+
 	use("nvim-treesitter/nvim-treesitter-context")
 
 	use({
@@ -185,10 +176,11 @@ return require("packer").startup(function(use)
 		},
 	})
 
-	use("folke/zen-mode.nvim")
 	use("eandrju/cellular-automaton.nvim")
-	use("laytan/cloak.nvim")
+
 	use("kyazdani42/nvim-web-devicons")
+
 	use("jose-elias-alvarez/null-ls.nvim")
+
 	use("jayp0521/mason-null-ls.nvim")
 end)
