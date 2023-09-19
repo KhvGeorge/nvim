@@ -50,8 +50,6 @@ return require("packer").startup(function(use)
 
 	use({ "catppuccin/nvim", as = "catppuccin" })
 
-	use("EdenEast/nightfox.nvim") -- Packer
-
 	use({
 		"folke/trouble.nvim",
 		config = function()
@@ -63,8 +61,6 @@ return require("packer").startup(function(use)
 			})
 		end,
 	})
-
-	use("folke/tokyonight.nvim")
 
 	use({
 		"ellisonleao/gruvbox.nvim",
@@ -128,8 +124,6 @@ return require("packer").startup(function(use)
 			vim.cmd.colorscheme("gruvbox")
 		end,
 	})
-
-	use({ "nyoom-engineering/oxocarbon.nvim" })
 
 	use({ "bluz71/vim-moonfly-colors", as = "moonfly" })
 
