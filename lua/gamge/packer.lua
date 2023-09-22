@@ -8,6 +8,8 @@ return require("packer").startup(function(use)
 
 	use("wbthomason/packer.nvim")
 
+	use("rafi/awesome-vim-colorschemes")
+
 	use("krfl/fleetish-vim")
 
 	use("tomasiser/vim-code-dark")
@@ -28,8 +30,6 @@ return require("packer").startup(function(use)
 			vim.cmd("colorscheme rose-pine")
 		end,
 	})
-
-	use("rockerBOO/boo-colorscheme-nvim")
 
 	use({ "rebelot/kanagawa.nvim" })
 

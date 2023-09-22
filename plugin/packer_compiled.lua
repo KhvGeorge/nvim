@@ -79,15 +79,15 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["awesome-vim-colorschemes"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/awesome-vim-colorschemes",
+    url = "https://github.com/rafi/awesome-vim-colorschemes"
+  },
   ["barbar.nvim"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
-  },
-  ["boo-colorscheme-nvim"] = {
-    loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/boo-colorscheme-nvim",
-    url = "https://github.com/rockerBOO/boo-colorscheme-nvim"
   },
   catppuccin = {
     loaded = true,
@@ -98,11 +98,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
     url = "https://github.com/eandrju/cellular-automaton.nvim"
-  },
-  ["cloak.nvim"] = {
-    loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/cloak.nvim",
-    url = "https://github.com/laytan/cloak.nvim"
   },
   ["cmp-buffer"] = {
     loaded = true,
@@ -134,10 +129,10 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/darcula",
     url = "https://github.com/doums/darcula"
   },
-  edge = {
+  ["fleetish-vim"] = {
     loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/edge",
-    url = "https://github.com/sainnhe/edge"
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/fleetish-vim",
+    url = "https://github.com/krfl/fleetish-vim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -155,7 +150,7 @@ _G.packer_plugins = {
     url = "https://github.com/sainnhe/gruvbox-material"
   },
   ["gruvbox.nvim"] = {
-    config = { "\27LJ\2\nö\14\0\0\5\0]\0b6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\a\0005\4\6\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\0035\4\21\0=\4\22\0035\4\23\0=\4\24\0035\4\25\0=\4\26\0035\4\27\0=\4\28\0035\4\29\0=\4\30\0035\4\31\0=\4 \0035\4!\0=\4\"\0035\4#\0=\4$\0035\4%\0=\4&\0035\4'\0=\4(\0035\4)\0=\4*\0035\4+\0=\4,\0035\4-\0=\4.\0035\4/\0=\0040\0035\0041\0=\0042\0035\0043\0=\0044\0035\0045\0=\0046\0035\0047\0=\0048\0035\0049\0=\4:\0035\4;\0=\4<\0035\4=\0=\4>\0035\4?\0=\4@\0035\4A\0=\4B\0035\4C\0=\4D\0035\4E\0=\4F\0035\4G\0=\4H\0035\4I\0=\4J\0035\4K\0=\4L\0035\4M\0=\4N\0035\4O\0=\4P\0035\4Q\0=\4R\0035\4S\0=\4T\0035\4U\0=\4V\0035\4W\0=\4X\3=\3Y\2B\0\2\0016\0Z\0009\0[\0009\0\\\0'\2\1\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\14overrides\31@neorg.markup.inline_macro\1\0\1\tlink\17GruvboxGreen\19CocSemVariable\1\0\2\afg\5\abg\f#0E1018\16CocSemMacro\1\0\2\afg\5\abg\f#0E1018\18CocSemComment\1\0\2\afg\5\abg\f#0E1018\24CocSemTypeParameter\1\0\2\afg\5\abg\f#0E1018\21CocSemEnumMember\1\0\2\afg\5\abg\f#0E1018\18CocSemKeyword\1\0\2\afg\5\abg\f#0E1018\17CocSemStruct\1\0\1\tlink\18GruvboxYellow\17WilderAccent\1\0\2\afg\f#f4468f\abg\5\15WilderMenu\1\0\2\afg\f#ebdbb2\abg\5\20GruvboxBlueSign\1\0\2\afg\f#83a598\abg\5\19GruvboxRedSign\1\0\2\afg\f#fb4934\abg\5\21GruvboxGreenSign\1\0\2\afg\f#b8bb26\abg\5\20GruvboxAquaSign\1\0\2\afg\f#8EC07C\abg\5\22GruvboxOrangeSign\1\0\2\afg\f#dfaf87\abg\5\17CursorLineNr\1\0\2\afg\f#fabd2f\abg\5\17StatusLineNC\1\0\2\abg\f#3c3836\afg\f#0E1018\15StatusLine\1\0\2\abg\f#ffffff\afg\f#0E1018\rDiffText\1\0\4\freverse\1\afg\5\abg\f#213352\tbold\2\15DiffDelete\1\0\4\freverse\1\afg\f#442d30\abg\f#442d30\tbold\2\15DiffChange\1\0\4\freverse\1\afg\5\abg\f#333841\tbold\2\fDiffAdd\1\0\4\freverse\1\afg\5\abg\f#2a4333\tbold\2\15SignColumn\1\0\1\abg\f#fe8019\15FoldColumn\1\0\2\afg\f#fe8019\abg\f#0E1018\vFolded\1\0\3\afg\f#fe8019\vitalic\2\abg\f#3c3836\30DiagnosticVirtualTextWarn\1\0\1\afg\f#dfaf87\17CocPumDetail\1\0\1\afg\f#fe8019\19CocPumShortcut\1\0\1\afg\f#fe8019\17CocInlayHint\1\0\1\afg\f#ABB0B6\20CocWarningFloat\1\0\1\afg\f#dfaf87\16CocCodeLens\1\0\1\afg\f#878787\22CopilotSuggestion\1\0\1\afg\f#878787\14ContextVt\1\0\1\afg\f#878788\20@namespace.rust\1\0\1\tlink\fInclude\21@namespace.latex\1\0\1\tlink\fInclude\15@text.note\1\0\1\tlink\tTODO\27@storageclass.lifetime\1\0\1\tlink\16GruvboxAqua\22@constant.builtin\1\0\1\tlink\18GruvboxPurple\nMacro\1\0\1\tlink\18GruvboxPurple\vDefine\1\0\1\tlink\18GruvboxPurple\fComment\1\0\0\1\0\3\afg\f#81878f\vitalic\2\tbold\2\22palette_overrides\1\0\1\15dark0_hard\f#0E1018\1\0\1\rcontrast\thard\nsetup\fgruvbox\frequire\0" },
+    config = { "\27LJ\2\nö\14\0\0\5\0]\0b6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\a\0005\4\6\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\0035\4\21\0=\4\22\0035\4\23\0=\4\24\0035\4\25\0=\4\26\0035\4\27\0=\4\28\0035\4\29\0=\4\30\0035\4\31\0=\4 \0035\4!\0=\4\"\0035\4#\0=\4$\0035\4%\0=\4&\0035\4'\0=\4(\0035\4)\0=\4*\0035\4+\0=\4,\0035\4-\0=\4.\0035\4/\0=\0040\0035\0041\0=\0042\0035\0043\0=\0044\0035\0045\0=\0046\0035\0047\0=\0048\0035\0049\0=\4:\0035\4;\0=\4<\0035\4=\0=\4>\0035\4?\0=\4@\0035\4A\0=\4B\0035\4C\0=\4D\0035\4E\0=\4F\0035\4G\0=\4H\0035\4I\0=\4J\0035\4K\0=\4L\0035\4M\0=\4N\0035\4O\0=\4P\0035\4Q\0=\4R\0035\4S\0=\4T\0035\4U\0=\4V\0035\4W\0=\4X\3=\3Y\2B\0\2\0016\0Z\0009\0[\0009\0\\\0'\2\1\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\14overrides\31@neorg.markup.inline_macro\1\0\1\tlink\17GruvboxGreen\19CocSemVariable\1\0\2\abg\f#0E1018\afg\5\16CocSemMacro\1\0\2\abg\f#0E1018\afg\5\18CocSemComment\1\0\2\abg\f#0E1018\afg\5\24CocSemTypeParameter\1\0\2\abg\f#0E1018\afg\5\21CocSemEnumMember\1\0\2\abg\f#0E1018\afg\5\18CocSemKeyword\1\0\2\abg\f#0E1018\afg\5\17CocSemStruct\1\0\1\tlink\18GruvboxYellow\17WilderAccent\1\0\2\abg\5\afg\f#f4468f\15WilderMenu\1\0\2\abg\5\afg\f#ebdbb2\20GruvboxBlueSign\1\0\2\abg\5\afg\f#83a598\19GruvboxRedSign\1\0\2\abg\5\afg\f#fb4934\21GruvboxGreenSign\1\0\2\abg\5\afg\f#b8bb26\20GruvboxAquaSign\1\0\2\abg\5\afg\f#8EC07C\22GruvboxOrangeSign\1\0\2\abg\5\afg\f#dfaf87\17CursorLineNr\1\0\2\abg\5\afg\f#fabd2f\17StatusLineNC\1\0\2\abg\f#3c3836\afg\f#0E1018\15StatusLine\1\0\2\abg\f#ffffff\afg\f#0E1018\rDiffText\1\0\4\abg\f#213352\tbold\2\afg\5\freverse\1\15DiffDelete\1\0\4\abg\f#442d30\tbold\2\afg\f#442d30\freverse\1\15DiffChange\1\0\4\abg\f#333841\tbold\2\afg\5\freverse\1\fDiffAdd\1\0\4\abg\f#2a4333\tbold\2\afg\5\freverse\1\15SignColumn\1\0\1\abg\f#fe8019\15FoldColumn\1\0\2\abg\f#0E1018\afg\f#fe8019\vFolded\1\0\3\abg\f#3c3836\afg\f#fe8019\vitalic\2\30DiagnosticVirtualTextWarn\1\0\1\afg\f#dfaf87\17CocPumDetail\1\0\1\afg\f#fe8019\19CocPumShortcut\1\0\1\afg\f#fe8019\17CocInlayHint\1\0\1\afg\f#ABB0B6\20CocWarningFloat\1\0\1\afg\f#dfaf87\16CocCodeLens\1\0\1\afg\f#878787\22CopilotSuggestion\1\0\1\afg\f#878787\14ContextVt\1\0\1\afg\f#878788\20@namespace.rust\1\0\1\tlink\fInclude\21@namespace.latex\1\0\1\tlink\fInclude\15@text.note\1\0\1\tlink\tTODO\27@storageclass.lifetime\1\0\1\tlink\16GruvboxAqua\22@constant.builtin\1\0\1\tlink\18GruvboxPurple\nMacro\1\0\1\tlink\18GruvboxPurple\vDefine\1\0\1\tlink\18GruvboxPurple\fComment\1\0\0\1\0\3\tbold\2\afg\f#81878f\vitalic\2\22palette_overrides\1\0\1\15dark0_hard\f#0E1018\1\0\1\rcontrast\thard\nsetup\fgruvbox\frequire\0" },
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
@@ -174,11 +169,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
     url = "https://github.com/VonHeikemen/lsp-zero.nvim"
-  },
-  ["lush.nvim"] = {
-    loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/lush.nvim",
-    url = "https://github.com/rktjmp/lush.nvim"
   },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
@@ -199,11 +189,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/moonfly",
     url = "https://github.com/bluz71/vim-moonfly-colors"
-  },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
@@ -240,11 +225,6 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
-  ["oxocarbon.nvim"] = {
-    loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/oxocarbon.nvim",
-    url = "https://github.com/nyoom-engineering/oxocarbon.nvim"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -271,20 +251,10 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
-  sonokai = {
-    loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/sonokai",
-    url = "https://github.com/sainnhe/sonokai"
-  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
   },
   ["trouble.nvim"] = {
     config = { "\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0" },
@@ -336,32 +306,22 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
-  },
-  ["zen-mode.nvim"] = {
-    loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
-    url = "https://github.com/folke/zen-mode.nvim"
-  },
-  ["zenbones.nvim"] = {
-    loaded = true,
-    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/zenbones.nvim",
-    url = "https://github.com/mcchrish/zenbones.nvim"
   }
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: rose-pine
-time([[Config for rose-pine]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
-time([[Config for rose-pine]], false)
+-- Config for: gruvbox.nvim
+time([[Config for gruvbox.nvim]], true)
+try_loadstring("\27LJ\2\nö\14\0\0\5\0]\0b6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\a\0005\4\6\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\0035\4\21\0=\4\22\0035\4\23\0=\4\24\0035\4\25\0=\4\26\0035\4\27\0=\4\28\0035\4\29\0=\4\30\0035\4\31\0=\4 \0035\4!\0=\4\"\0035\4#\0=\4$\0035\4%\0=\4&\0035\4'\0=\4(\0035\4)\0=\4*\0035\4+\0=\4,\0035\4-\0=\4.\0035\4/\0=\0040\0035\0041\0=\0042\0035\0043\0=\0044\0035\0045\0=\0046\0035\0047\0=\0048\0035\0049\0=\4:\0035\4;\0=\4<\0035\4=\0=\4>\0035\4?\0=\4@\0035\4A\0=\4B\0035\4C\0=\4D\0035\4E\0=\4F\0035\4G\0=\4H\0035\4I\0=\4J\0035\4K\0=\4L\0035\4M\0=\4N\0035\4O\0=\4P\0035\4Q\0=\4R\0035\4S\0=\4T\0035\4U\0=\4V\0035\4W\0=\4X\3=\3Y\2B\0\2\0016\0Z\0009\0[\0009\0\\\0'\2\1\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\14overrides\31@neorg.markup.inline_macro\1\0\1\tlink\17GruvboxGreen\19CocSemVariable\1\0\2\abg\f#0E1018\afg\5\16CocSemMacro\1\0\2\abg\f#0E1018\afg\5\18CocSemComment\1\0\2\abg\f#0E1018\afg\5\24CocSemTypeParameter\1\0\2\abg\f#0E1018\afg\5\21CocSemEnumMember\1\0\2\abg\f#0E1018\afg\5\18CocSemKeyword\1\0\2\abg\f#0E1018\afg\5\17CocSemStruct\1\0\1\tlink\18GruvboxYellow\17WilderAccent\1\0\2\abg\5\afg\f#f4468f\15WilderMenu\1\0\2\abg\5\afg\f#ebdbb2\20GruvboxBlueSign\1\0\2\abg\5\afg\f#83a598\19GruvboxRedSign\1\0\2\abg\5\afg\f#fb4934\21GruvboxGreenSign\1\0\2\abg\5\afg\f#b8bb26\20GruvboxAquaSign\1\0\2\abg\5\afg\f#8EC07C\22GruvboxOrangeSign\1\0\2\abg\5\afg\f#dfaf87\17CursorLineNr\1\0\2\abg\5\afg\f#fabd2f\17StatusLineNC\1\0\2\abg\f#3c3836\afg\f#0E1018\15StatusLine\1\0\2\abg\f#ffffff\afg\f#0E1018\rDiffText\1\0\4\abg\f#213352\tbold\2\afg\5\freverse\1\15DiffDelete\1\0\4\abg\f#442d30\tbold\2\afg\f#442d30\freverse\1\15DiffChange\1\0\4\abg\f#333841\tbold\2\afg\5\freverse\1\fDiffAdd\1\0\4\abg\f#2a4333\tbold\2\afg\5\freverse\1\15SignColumn\1\0\1\abg\f#fe8019\15FoldColumn\1\0\2\abg\f#0E1018\afg\f#fe8019\vFolded\1\0\3\abg\f#3c3836\afg\f#fe8019\vitalic\2\30DiagnosticVirtualTextWarn\1\0\1\afg\f#dfaf87\17CocPumDetail\1\0\1\afg\f#fe8019\19CocPumShortcut\1\0\1\afg\f#fe8019\17CocInlayHint\1\0\1\afg\f#ABB0B6\20CocWarningFloat\1\0\1\afg\f#dfaf87\16CocCodeLens\1\0\1\afg\f#878787\22CopilotSuggestion\1\0\1\afg\f#878787\14ContextVt\1\0\1\afg\f#878788\20@namespace.rust\1\0\1\tlink\fInclude\21@namespace.latex\1\0\1\tlink\fInclude\15@text.note\1\0\1\tlink\tTODO\27@storageclass.lifetime\1\0\1\tlink\16GruvboxAqua\22@constant.builtin\1\0\1\tlink\18GruvboxPurple\nMacro\1\0\1\tlink\18GruvboxPurple\vDefine\1\0\1\tlink\18GruvboxPurple\fComment\1\0\0\1\0\3\tbold\2\afg\f#81878f\vitalic\2\22palette_overrides\1\0\1\15dark0_hard\f#0E1018\1\0\1\rcontrast\thard\nsetup\fgruvbox\frequire\0", "config", "gruvbox.nvim")
+time([[Config for gruvbox.nvim]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
 time([[Config for trouble.nvim]], false)
--- Config for: gruvbox.nvim
-time([[Config for gruvbox.nvim]], true)
-try_loadstring("\27LJ\2\nö\14\0\0\5\0]\0b6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\a\0005\4\6\0=\4\b\0035\4\t\0=\4\n\0035\4\v\0=\4\f\0035\4\r\0=\4\14\0035\4\15\0=\4\16\0035\4\17\0=\4\18\0035\4\19\0=\4\20\0035\4\21\0=\4\22\0035\4\23\0=\4\24\0035\4\25\0=\4\26\0035\4\27\0=\4\28\0035\4\29\0=\4\30\0035\4\31\0=\4 \0035\4!\0=\4\"\0035\4#\0=\4$\0035\4%\0=\4&\0035\4'\0=\4(\0035\4)\0=\4*\0035\4+\0=\4,\0035\4-\0=\4.\0035\4/\0=\0040\0035\0041\0=\0042\0035\0043\0=\0044\0035\0045\0=\0046\0035\0047\0=\0048\0035\0049\0=\4:\0035\4;\0=\4<\0035\4=\0=\4>\0035\4?\0=\4@\0035\4A\0=\4B\0035\4C\0=\4D\0035\4E\0=\4F\0035\4G\0=\4H\0035\4I\0=\4J\0035\4K\0=\4L\0035\4M\0=\4N\0035\4O\0=\4P\0035\4Q\0=\4R\0035\4S\0=\4T\0035\4U\0=\4V\0035\4W\0=\4X\3=\3Y\2B\0\2\0016\0Z\0009\0[\0009\0\\\0'\2\1\0B\0\2\1K\0\1\0\16colorscheme\bcmd\bvim\14overrides\31@neorg.markup.inline_macro\1\0\1\tlink\17GruvboxGreen\19CocSemVariable\1\0\2\afg\5\abg\f#0E1018\16CocSemMacro\1\0\2\afg\5\abg\f#0E1018\18CocSemComment\1\0\2\afg\5\abg\f#0E1018\24CocSemTypeParameter\1\0\2\afg\5\abg\f#0E1018\21CocSemEnumMember\1\0\2\afg\5\abg\f#0E1018\18CocSemKeyword\1\0\2\afg\5\abg\f#0E1018\17CocSemStruct\1\0\1\tlink\18GruvboxYellow\17WilderAccent\1\0\2\afg\f#f4468f\abg\5\15WilderMenu\1\0\2\afg\f#ebdbb2\abg\5\20GruvboxBlueSign\1\0\2\afg\f#83a598\abg\5\19GruvboxRedSign\1\0\2\afg\f#fb4934\abg\5\21GruvboxGreenSign\1\0\2\afg\f#b8bb26\abg\5\20GruvboxAquaSign\1\0\2\afg\f#8EC07C\abg\5\22GruvboxOrangeSign\1\0\2\afg\f#dfaf87\abg\5\17CursorLineNr\1\0\2\afg\f#fabd2f\abg\5\17StatusLineNC\1\0\2\abg\f#3c3836\afg\f#0E1018\15StatusLine\1\0\2\abg\f#ffffff\afg\f#0E1018\rDiffText\1\0\4\freverse\1\afg\5\abg\f#213352\tbold\2\15DiffDelete\1\0\4\freverse\1\afg\f#442d30\abg\f#442d30\tbold\2\15DiffChange\1\0\4\freverse\1\afg\5\abg\f#333841\tbold\2\fDiffAdd\1\0\4\freverse\1\afg\5\abg\f#2a4333\tbold\2\15SignColumn\1\0\1\abg\f#fe8019\15FoldColumn\1\0\2\afg\f#fe8019\abg\f#0E1018\vFolded\1\0\3\afg\f#fe8019\vitalic\2\abg\f#3c3836\30DiagnosticVirtualTextWarn\1\0\1\afg\f#dfaf87\17CocPumDetail\1\0\1\afg\f#fe8019\19CocPumShortcut\1\0\1\afg\f#fe8019\17CocInlayHint\1\0\1\afg\f#ABB0B6\20CocWarningFloat\1\0\1\afg\f#dfaf87\16CocCodeLens\1\0\1\afg\f#878787\22CopilotSuggestion\1\0\1\afg\f#878787\14ContextVt\1\0\1\afg\f#878788\20@namespace.rust\1\0\1\tlink\fInclude\21@namespace.latex\1\0\1\tlink\fInclude\15@text.note\1\0\1\tlink\tTODO\27@storageclass.lifetime\1\0\1\tlink\16GruvboxAqua\22@constant.builtin\1\0\1\tlink\18GruvboxPurple\nMacro\1\0\1\tlink\18GruvboxPurple\vDefine\1\0\1\tlink\18GruvboxPurple\fComment\1\0\0\1\0\3\afg\f#81878f\vitalic\2\tbold\2\22palette_overrides\1\0\1\15dark0_hard\f#0E1018\1\0\1\rcontrast\thard\nsetup\fgruvbox\frequire\0", "config", "gruvbox.nvim")
-time([[Config for gruvbox.nvim]], false)
+-- Config for: rose-pine
+time([[Config for rose-pine]], true)
+try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
+time([[Config for rose-pine]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
