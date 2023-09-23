@@ -76,3 +76,4 @@ end
 vim.keymap.set("n", "<leader>qf", quickfix, opts)
 
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+vim.keymap.set("n", "<leader>t", ":FloatermToggle<CR>")

@@ -8,6 +8,10 @@ return require("packer").startup(function(use)
 
 	use("wbthomason/packer.nvim")
 
+	use("ptzz/lf.vim")
+
+	use("voldikss/vim-floaterm")
+
 	use("rafi/awesome-vim-colorschemes")
 
 	use("krfl/fleetish-vim")
