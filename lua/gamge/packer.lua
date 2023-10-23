@@ -8,12 +8,6 @@ return require("packer").startup(function(use)
 
 	use("wbthomason/packer.nvim")
 
-	use("ptzz/lf.vim")
-
-	use("voldikss/vim-floaterm")
-
-	use("rafi/awesome-vim-colorschemes")
-
 	use("krfl/fleetish-vim")
 
 	use("tomasiser/vim-code-dark")
@@ -44,11 +38,7 @@ return require("packer").startup(function(use)
 
 	use({ "vim-airline/vim-airline" })
 
-	use({ "doums/darcula" })
-
 	use({ "romgrk/barbar.nvim" })
-
-	use({ "andreasvc/vim-256noir" })
 
 	use({ "sainnhe/gruvbox-material" })
 
