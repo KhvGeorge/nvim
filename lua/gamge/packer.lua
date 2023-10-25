@@ -8,6 +8,12 @@ return require("packer").startup(function(use)
 
 	use("wbthomason/packer.nvim")
 
+	use("nyoom-engineering/oxocarbon.nvim")
+
+	use({ "stevedylandev/flexoki-nvim", as = "flexoki" })
+
+	use("folke/tokyonight.nvim")
+
 	use("krfl/fleetish-vim")
 
 	use("tomasiser/vim-code-dark")
