@@ -38,7 +38,7 @@ return require("packer").startup(function(use)
 
 	use({ "vim-airline/vim-airline" })
 
-	use({ "romgrk/barbar.nvim" })
+	-- use({ "romgrk/barbar.nvim" })
 
 	use({ "sainnhe/gruvbox-material" })
 
