@@ -10,15 +10,17 @@ return require("packer").startup(function(use)
 
 	use("nyoom-engineering/oxocarbon.nvim")
 
-	use({ "stevedylandev/flexoki-nvim", as = "flexoki" })
-
-	use("folke/tokyonight.nvim")
-
-	use("krfl/fleetish-vim")
+	use("embark-theme/vim")
 
 	use("tomasiser/vim-code-dark")
 
 	use("christoomey/vim-tmux-navigator")
+
+	use({ "sainnhe/gruvbox-material" })
+
+	use({ "sainnhe/sonokai" })
+
+	use({ "windwp/nvim-autopairs" })
 
 	use({
 		"nvim-telescope/telescope.nvim",
@@ -45,8 +47,6 @@ return require("packer").startup(function(use)
 	use({ "vim-airline/vim-airline" })
 
 	-- use({ "romgrk/barbar.nvim" })
-
-	use({ "sainnhe/gruvbox-material" })
 
 	use({ "catppuccin/nvim", as = "catppuccin" })
 
