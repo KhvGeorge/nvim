@@ -14,13 +14,45 @@ return require("packer").startup(function(use)
 
 	use("tomasiser/vim-code-dark")
 
+	use("nanotech/jellybeans.vim")
+
+	use("Shatur/neovim-ayu")
+
+	use({
+		"kdheepak/monochrome.nvim",
+		config = function()
+			vim.cmd("colorscheme monochrome")
+		end,
+	})
+
+	use({
+		"jesseleite/nvim-noirbuddy",
+		requires = { "tjdevries/colorbuddy.nvim", branch = "dev" },
+	})
+
+	-- Packer:
+	use("Mofiqul/vscode.nvim")
+
+	use("mhartington/oceanic-next")
+
+	use("rockerBOO/boo-colorscheme-nvim")
+
 	use("christoomey/vim-tmux-navigator")
 
 	use({ "sainnhe/gruvbox-material" })
 
 	use({ "sainnhe/sonokai" })
 
+	use({ "projekt0n/github-nvim-theme" })
+
 	use({ "windwp/nvim-autopairs" })
+
+	use({
+		"goolord/alpha-nvim",
+		config = function()
+			require("alpha").setup(require("alpha.themes.dashboard").config)
+		end,
+	})
 
 	use({
 		"nvim-telescope/telescope.nvim",

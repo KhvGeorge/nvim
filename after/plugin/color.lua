@@ -12,15 +12,19 @@ require("catppuccin").setup({
 	no_bold = true,
 })
 
+require("noirbuddy").setup({
+	preset = "miami-nights",
+})
+
 function ColorMyPencils(color)
 	vim.cmd("set background=dark")
 	vim.g.gruvbox_material_background = "hard"
 	vim.g.gruvbox_material_better_performance = 1
-	color = color or "gruvbox"
+	color = color or "gruvbox-material"
 	vim.cmd.colorscheme(color)
 
-	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+	-- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+	-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
 
 ColorMyPencils()
