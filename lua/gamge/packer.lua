@@ -16,6 +16,10 @@ return require("packer").startup(function(use)
 
 	use("nanotech/jellybeans.vim")
 
+	use("folke/noice.nvim")
+	use("MunifTanjim/nui.nvim")
+	use("rcarriga/nvim-notify")
+
 	use("Shatur/neovim-ayu")
 
 	use({
