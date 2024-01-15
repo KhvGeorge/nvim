@@ -26,9 +26,9 @@ mason_lspconfig.setup({
 		"html",
 		"eslint",
 		"pyright",
-		-- ruff
-		-- mypy
-		-- black
+		-- "ruff",
+		-- "mypy",
+		-- "black",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed

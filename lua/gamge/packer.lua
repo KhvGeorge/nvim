@@ -8,15 +8,11 @@ return require("packer").startup(function(use)
 
 	use("wbthomason/packer.nvim")
 
-	use("embark-theme/vim")
-
-	use("nanotech/jellybeans.vim")
-
-	use("Shatur/neovim-ayu")
-
-	-- Packer:
 	use("Mofiqul/vscode.nvim")
 
+	use({ "catppuccin/nvim", as = "catppuccin" })
+
+	-- new
 	use("christoomey/vim-tmux-navigator")
 
 	use({ "sainnhe/gruvbox-material" })
@@ -38,7 +34,7 @@ return require("packer").startup(function(use)
 		end,
 	})
 
-	use({ "rebelot/kanagawa.nvim" })
+	-- use({ "rebelot/kanagawa.nvim" })
 
 	--ysiw to surround
 	use({ "tpope/vim-surround" })
@@ -47,9 +43,9 @@ return require("packer").startup(function(use)
 
 	use({ "vim-airline/vim-airline" })
 
-	use({ "romgrk/barbar.nvim" })
+	-- use({ "romgrk/barbar.nvim" })
 
-	use({ "catppuccin/nvim", as = "catppuccin" })
+	-- use({ "catppuccin/nvim", as = "catppuccin" })
 
 	use({
 		"folke/trouble.nvim",
@@ -63,7 +59,7 @@ return require("packer").startup(function(use)
 		end,
 	})
 
-	use({ "bluz71/vim-moonfly-colors", as = "moonfly" })
+	-- use({ "bluz71/vim-moonfly-colors", as = "moonfly" })
 
 	use("nvim-treesitter/nvim-treesitter", { run = ":TSUpdate" })
 

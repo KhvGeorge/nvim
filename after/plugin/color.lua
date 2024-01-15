@@ -7,20 +7,20 @@ require("rose-pine").setup({
 require("catppuccin").setup({
 	flavour = "macchiato", -- latte, frappe, macchiato, mocha
 	term_colors = true,
-	transparent_background = false,
+	transparent_background = true,
 	no_italic = true,
 	no_bold = true,
 })
 
 function ColorMyPencils(color)
-	vim.cmd("set background=dark")
-	vim.g.gruvbox_material_background = "hard"
-	vim.g.gruvbox_material_better_performance = 1
-	color = color or "gruvbox-material"
+	-- vim.cmd("set background=dark")
+	-- vim.g.gruvbox_material_background = "hard"
+	-- vim.g.gruvbox_material_better_performance = 1
+	color = color or "rose-pine"
 	vim.cmd.colorscheme(color)
 
-	-- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-	-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
 
 ColorMyPencils()
