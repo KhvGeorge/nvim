@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/gamge/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?.lua;/Users/gamge/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?/init.lua;/Users/gamge/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?.lua;/Users/gamge/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/gamge/.cache/nvim/packer_hererocks/2.1.1700008891/lib/lua/5.1/?.so"
+local package_path_str = "/Users/gamge/.cache/nvim/packer_hererocks/2.1.1725453128/share/lua/5.1/?.lua;/Users/gamge/.cache/nvim/packer_hererocks/2.1.1725453128/share/lua/5.1/?/init.lua;/Users/gamge/.cache/nvim/packer_hererocks/2.1.1725453128/lib/luarocks/rocks-5.1/?.lua;/Users/gamge/.cache/nvim/packer_hererocks/2.1.1725453128/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/gamge/.cache/nvim/packer_hererocks/2.1.1725453128/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -78,6 +78,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["bamboo.nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/bamboo.nvim",
+    url = "https://github.com/ribru17/bamboo.nvim"
+  },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
   },
   catppuccin = {
     loaded = true,
@@ -114,6 +124,21 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["cyberdream.nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
+    url = "https://github.com/scottmckendry/cyberdream.nvim"
+  },
+  ["dark_flat.nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/dark_flat.nvim",
+    url = "https://github.com/sekke276/dark_flat.nvim"
+  },
+  ["fluoromachine.nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/fluoromachine.nvim",
+    url = "https://github.com/maxmx03/fluoromachine.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -134,6 +159,21 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
+  ["lackluster.nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/lackluster.nvim",
+    url = "https://github.com/slugbyte/lackluster.nvim"
+  },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -153,6 +193,22 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["melange-nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/melange-nvim",
+    url = "https://github.com/savq/melange-nvim"
+  },
+  ["mellifluous.nvim"] = {
+    config = { "\27LJ\2\nm\0\0\3\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\28colorscheme mellifluous\bcmd\bvim\nsetup\16mellifluous\frequire\0" },
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/mellifluous.nvim",
+    url = "https://github.com/ramojus/mellifluous.nvim"
+  },
+  ["monochrome.nvim"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/monochrome.nvim",
+    url = "https://github.com/kdheepak/monochrome.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
@@ -220,6 +276,11 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  sonokai = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -256,6 +317,16 @@ _G.packer_plugins = {
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
   },
+  ["vim-moonfly-colors"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-moonfly-colors",
+    url = "https://github.com/bluz71/vim-moonfly-colors"
+  },
+  ["vim-startify"] = {
+    loaded = true,
+    path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-startify",
+    url = "https://github.com/mhinz/vim-startify"
+  },
   ["vim-surround"] = {
     loaded = true,
     path = "/Users/gamge/.local/share/nvim/site/pack/packer/start/vim-surround",
@@ -274,14 +345,18 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: trouble.nvim
-time([[Config for trouble.nvim]], true)
-try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
-time([[Config for trouble.nvim]], false)
 -- Config for: rose-pine
 time([[Config for rose-pine]], true)
 try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0", "config", "rose-pine")
 time([[Config for rose-pine]], false)
+-- Config for: mellifluous.nvim
+time([[Config for mellifluous.nvim]], true)
+try_loadstring("\27LJ\2\nm\0\0\3\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\28colorscheme mellifluous\bcmd\bvim\nsetup\16mellifluous\frequire\0", "config", "mellifluous.nvim")
+time([[Config for mellifluous.nvim]], false)
+-- Config for: trouble.nvim
+time([[Config for trouble.nvim]], true)
+try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
+time([[Config for trouble.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
