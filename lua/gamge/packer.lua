@@ -7,26 +7,11 @@ return require("packer").startup(function(use)
 	-- Packer can manage itself
 
 	use("wbthomason/packer.nvim")
-	use("mhinz/vim-startify")
-	use({ "scottmckendry/cyberdream.nvim" })
 	use("Mofiqul/vscode.nvim")
-	use("ribru17/bamboo.nvim")
 	use("savq/melange-nvim")
-	use("sainnhe/sonokai")
 	use("slugbyte/lackluster.nvim")
 	use("kdheepak/monochrome.nvim")
-	use("bluz71/vim-moonfly-colors")
-	use({
-		"ramojus/mellifluous.nvim",
-		-- version = "v0.*", -- uncomment for stable config (some features might be missed if/when v1 comes out)
-		config = function()
-			require("mellifluous").setup({}) -- optional, see configuration section.
-			vim.cmd("colorscheme mellifluous")
-		end,
-	})
-
 	use({ "catppuccin/nvim", as = "catppuccin" })
-
 	-- new
 	use("christoomey/vim-tmux-navigator")
 
@@ -59,9 +44,7 @@ return require("packer").startup(function(use)
 	})
 
 	use({ "rebelot/kanagawa.nvim" })
-	use({ "maxmx03/fluoromachine.nvim" })
 	use({ "sekke276/dark_flat.nvim" })
-	-- use({ "projekt0n/github-nvim-theme" })
 
 	--ysiw to surround
 	use({ "tpope/vim-surround" })
@@ -71,8 +54,6 @@ return require("packer").startup(function(use)
 	use({ "vim-airline/vim-airline" })
 
 	use({ "romgrk/barbar.nvim" })
-
-	-- use({ "catppuccin/nvim", as = "catppuccin" })
 
 	use({
 		"folke/trouble.nvim",
