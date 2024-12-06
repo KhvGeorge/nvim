@@ -11,6 +11,7 @@ return require("packer").startup(function(use)
 	use("savq/melange-nvim")
 	use("slugbyte/lackluster.nvim")
 	use("kdheepak/monochrome.nvim")
+	use("folke/snacks.nvim")
 	use({ "catppuccin/nvim", as = "catppuccin" })
 	-- new
 	use("christoomey/vim-tmux-navigator")
